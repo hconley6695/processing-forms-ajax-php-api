@@ -1,0 +1,414 @@
+body.page-template-login-page {
+		background: url('http://67.227.192.92/~websitesmadeeas/wp-content/uploads/2017/04/WTC_Membership-Log-In-bkground.png') no-repeat scroll 0 0 transparent;
+		background-size: cover;
+		font-family: 'Lato', sans-serif !important;
+		color: #FFF;
+		/*height: 0;*/
+		position: relative;
+	}
+
+	div.img-wrapper {
+		max-width: 200px;
+		margin: 10px auto;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	p {
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+	.pointer {
+		cursor: pointer;
+	}
+
+	div.row{
+		text-align: center;
+		width: 100%;
+	}
+
+	div.wrapper {
+		/*margin-top: 100px;*/
+	}
+
+
+	div#innerBG{
+
+		padding: 20px 20px;
+		width: 100%;
+		min-width: 370px;
+		max-width:715px;
+		display: inline-block;
+		background: -moz-linear-gradient(top, rgba(91,174,142,0.5) 0%, rgba(100,176,186,0.3) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(91,174,142,0.5) 0%,rgba(100,176,186,0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(91,174,142,0.5) 0%,rgba(100,176,186,0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed5bae8e', endColorstr='#eb64b0ba',GradientType=0 ); /* IE6-9 */
+	}
+
+	div#loginWrapper{
+		background: white;
+		display: inline-block;
+		width: 100%;
+		min-width: 370px;
+		max-width:755px;
+		position: relative;
+		box-shadow: 0 0 17px 4px rgba(0,0,0,0.3);
+		text-align: center;
+		background: transparent;
+		background-size: cover;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+
+	}
+
+	.WTC-System-container {
+		height: 300px;
+	}
+
+	.WTC-System-container h2 {
+		padding: 70px 10px 10px 10px;
+	}
+
+
+	div#loginForm {
+		display: inline-block;
+		text-align: left;
+		width: 100%;
+		max-width: 470px;
+	}
+
+	div#loginHeader{
+		width: 100%;
+		display: inline-block;
+		max-width: 470px;
+	}
+
+
+	input[type="text"], input[type="password"]{
+		background-position: left center;
+		background-repeat: no-repeat;
+		background-size: 26px auto;
+		border: none;
+		border-image: none;
+		box-shadow: none;
+		color: #ffffff;
+		padding-left: 30px;
+		font-size: 18px;
+		border-radius: 5px;
+		height: 45px;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+
+	.infusion-form > div.adjust-submit {
+		/*vertical-align: baseline;*/
+		vertical-align: super;
+	}
+
+	.infusion-form > div.adjust {
+		position: relative;
+	}
+
+	.infusion-field span.icon-profile-icon {
+		font-size: 22px;
+	}
+
+	.infusion-field span.icon-envelop {
+		font-size: 16px;
+	}
+
+	#WTC-System-free-div input[type="text"], #WTC-System-free-div input[type="password"] {
+		display: inline;
+		padding-left: 8px;
+		height: inherit;
+		font-size: 13px;
+		border: medium none;
+	    color: #7f7f7f;
+	    font-family: sans-serif;
+	    font-size: 20px;
+	    transition: all 0.5s;
+	    vertical-align: middle;
+	    font-weight: 400;
+	    width: 80%;
+	}
+
+	#WTC-System-free-div input[type="submit"] {
+		color: #ffffff;
+	}
+
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #fff;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: #fff;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: #fff;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	  color: #fff;
+	}
+	input#pass:placeholder, input#user {
+	  opacity: 1 !important;
+	}
+
+	input[type="text"]#inf_field_Email::-webkit-input-placeholder {
+		color: #7f7f7f;
+	}
+
+	input[type="text"]#inf_field_FirstName::-webkit-input-placeholder {
+		color: #7f7f7f;
+	}
+
+	input[type="text"]#inf_field_Email::-moz-placeholder {
+		color: #7f7f7f;
+	}
+	input[type="text"]#inf_field_Email:-ms-input-placeholder {
+		color: #7f7f7f;
+	}
+	input[type="text"]#inf_field_Email:-moz-placeholder {
+		color: #7f7f7f;
+	}
+
+	input[type="text"]#inf_field_FirstName::-moz-placeholder {
+		color: #7f7f7f;
+	}
+	input[type="text"]#inf_field_FirstName:-ms-input-placeholder{
+		color: #7f7f7f;
+	}
+	input[type="text"]#inf_field_FirstName:-moz-placeholder {
+		color: #7f7f7f;
+	}
+
+
+
+	input#wp-submit {
+		border-radius: 0;
+		font-size: 16px;
+		height: auto;
+		padding: 10px;
+		text-shadow: none;
+		text-transform: uppercase;
+		background: #ffffff none repeat scroll 0 0;
+		border-radius: 5px;
+		color: #2ffbc4;
+		border: none;
+		border-bottom: 1px solid #fff;
+		width: 190px;
+		clear: both;
+		font-weight: bold;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	p.login-submit {
+		text-align: center;
+		width: 100%;
+	}
+
+	p.login-submit #wp-submit {
+		font-weight: 400;
+	}
+
+
+	p.login-remember input#rememberme {
+	    height: 20px;
+	    width: 20px;
+	    border-radius: 3px;
+	    margin: 0;
+	    margin-top: -4px;
+	}
+
+	p.login-remember input#rememberme:checked:before {
+	    font: 100 23px/1 dashicons !important;
+	    color: #ffffff;
+	    content: "\f147";
+	    margin: -2px 0 0 -3px;
+
+	}
+
+	p.login-remember input#rememberme:checked {
+	    -webkit-appearance: none;
+  		-moz-appearance:    none;
+	    background-color: #2ffbc4;
+	    border: 0.5px solid #2ffbc4;
+	}
+
+
+
+	.page-template-login-page div#signup p {
+		display: inline-block;
+		width: 49%;
+		text-align: center;
+	}
+
+	.page-template-login-page div#signup a{
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	.page-template-login-page div#signup p button.login-btn {
+	    background: none;
+	    border: none;
+	    color: #ffffff;
+	    cursor: pointer;
+	    font-size: 18px;
+	}
+
+	.page-template-login-page div#signup p button.login-btn a {
+		opacity: 0.6;
+		font-weight: 300;
+	}
+
+	.page-template-login-page div#signup p button.login-btn a:hover {
+		border-bottom: 2px solid #2ffbc4;
+		opacity: 1;
+
+	}
+
+	.page-template-login-page div#signup a.active{
+		border-bottom: 2px solid #2ffbc4;
+	}
+	div#forgot-password p a {
+		text-decoration: none;
+		font-family: 'Lato', sans-serif !important;
+		color: #FFF;
+		/*opacity: 0.6;*/
+		/*font-weight: 100;*/
+		font-size: 19px;
+		filter: opacity(60%);
+		-moz-filter: opacity(60%);
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+
+	}
+
+@media screen and (max-width: 830px) {
+	.WTC-System-container {
+		height: initial;
+		padding-bottom: 10px;
+
+	}
+	.WTC-System-container h2 {
+		font-size: 40px;
+		line-height: normal;
+		padding: 50px 10px 0px 10px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	div#innerBG {
+		box-sizing: border-box;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+	p {
+		line-height: 1;
+	}
+	div.wrapper {
+		margin-top: 50px;
+	}
+
+	div#innerBG {
+		min-width: 300px;
+		max-width: 300px;
+	}
+	div#loginWrapper {
+		min-width: 300px;
+		max-width: 300px;
+		position: relative;
+		left: 0;
+		top: 0;
+		transform: none;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	#WTC-System-free-div input[type="text"] {
+	    width: 80%;
+	    font-size: 14px;
+	    padding: 1px 0;
+	    vertical-align: middle;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	body.page-template-login-page {
+		background-size: unset;
+		height: 0;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  	body.page-template-login-page {
+		background-size: unset;
+		height: 0;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	body.page-template-login-page {
+		position: inherit;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  	body.page-template-login-page {
+		position: inherit;
+	}
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	body.page-template-login-page {
+		background-size: unset;
+		height: 0;
+	}
+}
+@media screen and (max-height: 650px) {
+	body.page-template-login-page {
+		background-size: unset;
+		height: 0;
+	}
+}
+@media screen and (max-width: 1500px) and (-ms-high-contrast: active), screen and (max-width: 1500px) and (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */ 
+   body.page-template-login-page {
+   		height: inherit;
+   }
+}
+@media screen and (max-width: 830px) and (-ms-high-contrast: active), screen and (max-width: 830px) and (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */ 
+
+   .WTC-System-container {
+   		height: 435px;
+   } 
+}
+
