@@ -20,19 +20,6 @@
 </head>
 <body>
 
-<!-- <?php /* Template Name: Login Page */
-
-
-	$login  = (isset($_GET['login']) ) ? $_GET['login'] : 0;
-
-	$args = array(
-	    'id_username' => 'user',
-	    'id_password' => 'pass',
-	   );
-?>
- -->
-
-
 
 <div class="row">
 	<div class="wrapper">
