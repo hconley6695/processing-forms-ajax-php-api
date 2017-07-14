@@ -5,6 +5,10 @@
 	<meta http-equiv="refresh" content="1;url=http://localhost:8080">
 </head>
 <body>
+<p>
+	The purpose of this project was to record how a form in a pop-uup, called by a function, was processed.  
 
+	Form was called by clicking a button on the page.  Using jQuery, a lightbox appears.  Upon form submission, JavaScript was used to validate the form on the frontend.  Once validated, the information was sent to a php via an ajax call.  The php function reached out to the Infusionsoft API, where it checked for the email address sent through by the form.  If the email address already existed, it did NOT duplicate it.  If the email address didn't exist, a new contact was created, given a password, and automatically logged in through Memberium, a wordpress content protection plugin.  The redirect occurred using the return data on the frontend.
+</p>
 </body>
 </html>
